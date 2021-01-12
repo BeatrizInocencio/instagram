@@ -64,14 +64,61 @@ body{
 
 }
 
-.downlod{
+.notAccont{
+    color: rgb(160,160,160);
+}
+
+.link{
+    color: #0095f6;
+
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.botaoDownload{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.AppStore img{
+    height: 120px;
+    width: 130px;
+}
+.AppStore{
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.GooglePlay img{
+    height: 60px;
+}
+
+.GooglePlay{
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 .continue{
+    background-color: #0095f6;
+    color: white;
+    margin-top: 1rem;
+    padding: 8px;
+    border-radius: 4px;
 
 }
 
 .remover{
+    color: #0095f6;
+    margin-top: 1rem;
     
 }
 
